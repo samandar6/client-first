@@ -1,0 +1,75 @@
+.our-team-section {
+    &-container {
+        &-block {
+            &-textbox {
+                width: 519px;
+                margin-top: 98px;
+                margin-left: 490px;
+
+                &__title {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 48px;
+                    line-height: 120%;
+                    text-align: center;
+                    color: #1D2130;
+                }
+
+                &__text {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 160%;
+                    text-align: center;
+                    color: #525560;
+                    opacity: 0.6;
+                    padding-top: 16px;
+                }
+            }
+
+            &-flexbox {
+                display: flex;
+                margin-top: 48px;
+                margin-left: 110px;
+
+                &-box {
+                    width: 296px;
+                    height: 431px;
+                    margin-right: 32px;
+
+                    &__title {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 160%;
+                        text-align: center;
+                        color: #1D2130;
+                    }
+
+                    &__text {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 160%;
+                        color: #1D2130;
+                        opacity: 0.6;
+                        text-align: center;
+                    }
+
+                    &-spanbox {
+                        margin-left: 98px;
+                        margin-top: 16px;
+
+                        &__span {
+                            margin-right: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

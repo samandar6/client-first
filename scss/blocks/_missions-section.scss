@@ -1,0 +1,62 @@
+.missions-section {
+    &-container {
+        &-block {
+            height: 867px;
+            background: #EFF7F2;
+            margin-top: 320px;
+            position: relative;
+            width: 1500px;
+
+            &__img {
+                position: absolute;
+                top: -224px;
+                left: 110px;
+            }
+
+            &-textbox {
+                display: flex;
+                width: 1088px;
+                justify-content: space-between;
+                margin-left: 206px;
+                padding-top: 320px;
+
+                &-box {
+                    &__title {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 19px;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        color: #1D2130;
+                    }
+
+                    &__secondTitle {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 28px;
+                        line-height: 150%;
+                        color: #1D2130;
+                        width: 496px;
+                        margin-top: 16px;
+                    }
+
+                    &__text {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 160%;
+                        color: #1D2130;
+                        opacity: 0.7;
+                        width: 496px;
+                        margin-top: 8px;
+                        margin-bottom: 96px;
+                    }
+                }
+            }
+        }
+    }
+}

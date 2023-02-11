@@ -1,0 +1,76 @@
+.protect-earth-section {
+    &-container {
+        &-block {
+            width: 1280px;
+            height: 340px;
+            margin-left: 110px;
+            border-bottom: 1px solid #E5E5E5;
+
+            &-flexbox {
+                margin-top: 96px;
+                display: flex;
+                align-items: center;
+                gap: 0 96px;
+
+                &-textBox {
+                    width: 595px;
+
+                    &__title {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 48px;
+                        line-height: 120%;
+                        color: #1D2130;
+                    }
+
+                    &__text {
+                        padding-top: 24px;
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 160%;
+                        color: #525560;
+                    }
+                }
+
+                &-tabBox {
+                    width: 592px;
+                    height: 222px;
+
+                    &-spanBox {
+                        &-span {
+                            display: inline-block;
+                            width: 114px;
+                            height: 42px;
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 160%;
+                            color: #1D2130;
+                            text-align: center;
+                        }
+
+                        &-span:hover {
+                            cursor: pointer;
+                            border-bottom: 2px solid #70C174;
+                        }
+                    }
+
+                    &__text {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 160%;
+                        color: #525560;
+                        display: block;
+                        padding-top: 24px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+.save-environment-section {
+    &-container {
+        &-block {
+            background-image: url(/img/save-environment.png);
+            width: 1500px;
+            height: 735px;
+            margin-top: 24px;
+            background-repeat: no-repeat;
+
+            &__title {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 64px;
+                line-height: 120%;
+                color: #FFFFFF;
+                width: 640px;
+                padding-top: 128px;
+                margin-left: 110px;
+            }
+
+            &-buttonbox {
+                display: flex;
+                gap: 0 24px;
+                margin-left: 111px;
+                margin-top: 48px;
+
+                &-firstlink {
+                    padding: 10px 32px;
+                    background: #FFFFFF;
+                    backdrop-filter: blur(40px);
+                    border-radius: 4px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    text-align: center;
+                    color: #1D2130;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                &-secondlink {
+                    padding: 16px 32px;
+                    background: none;
+                    border-radius: 4px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-align: right;
+                    color: #fff;
+                    display: flex;
+                    align-items: center;
+                    gap: 0 8px;
+                }
+            }
+
+            &-statisticsBox {
+                display: flex;
+                align-items: center;
+                margin-left: 110px;
+                margin-top: 192px;
+                gap: 0 24px;
+
+                &__firstText {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}

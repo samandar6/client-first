@@ -1,0 +1,82 @@
+.stats-section {
+    &-container {
+        &-block {
+            background-color: black;
+            width: 1500px;
+            height: 567px;
+            margin-top: 96px;
+
+            &-flexbox {
+                display: flex;
+                justify-content: center;
+                gap: 0 294px;
+
+                &-textbox {
+                    margin-top: 142px;
+                    width: 611px;
+
+                    &__title {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 48px;
+                        line-height: 120%;
+                        color: #FFFFFF;
+                    }
+
+                    &__text {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 160%;
+                        color: #FFFFFF;
+                        opacity: 0.6;
+                        margin-top: 16px;
+                    }
+
+                    &-statsRow {
+                        margin-top: 32px;
+                        display: flex;
+                        flex-direction: column;
+
+                        &-box {
+                            display: flex;
+                            gap: 16px 26px;
+                            margin-top: 16px;
+                        }
+                        
+
+                        &-statsBox {
+                            display: flex;
+                            align-items: center;
+                            gap: 0 8px;
+                            height: 26px;
+
+                            &-square {
+                                width: 16px;
+                                height: 16px;
+                                background: #BEF3C0;
+                                border-radius: 4px;
+
+                            }
+
+                            &__text {
+                                font-family: 'Roboto';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 160%;
+                                color: #FFFFFF;
+                            }
+                        }
+                    }
+                }
+
+                img {
+                    margin-top: 96px;
+                }
+            }
+        }
+    }
+}

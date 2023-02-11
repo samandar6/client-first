@@ -1,0 +1,111 @@
+.about-us-section {
+    &-container {
+        &-block {
+            width: 1500px;
+
+            &-flexbox {
+                display: flex;
+                margin-top: 96px;
+                gap: 0 96px;
+
+                &-bigBox {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    &-titlebox {
+                        display: flex;
+                        align-items: center;
+                        margin-left: 110px;
+                        gap: 0 24px;
+
+                        &__title {
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 19px;
+                            letter-spacing: 2px;
+                            text-transform: uppercase;
+                            color: #1D2130;
+                        }
+                    }
+
+                    &-textbox {
+                        margin-left: 207px;
+
+                        &__title {
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 48px;
+                            line-height: 120%;
+                            color: #1D2130;
+                            width: 607px;
+                            margin-top: 32px;
+                        }
+
+                        &__text {
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 160%;
+                            color: #525560;
+                            width: 608px;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 40px 0;
+                            margin-top: 32px;
+                        }
+
+                        &__btn {
+                            display: inline-block;
+                            padding: 16px 32px;
+                            background: #70C174;
+                            backdrop-filter: blur(40px);
+                            border-radius: 4px;
+                            margin-top: 48px;
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 19px;
+                            text-align: center;
+                            color: #FFFFFF;
+                        }
+                    }
+
+                }
+            }
+
+            &-supportBox {
+                &-titleRow {
+                    display: flex;
+                    align-items: center;
+                    gap: 0 24px;
+                    margin-top: 64px;
+                    margin-left: 110px;
+
+                    &__title {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 19px;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        color: #1D2130;
+                    }
+                }
+
+                &-logoRow {
+                    display: flex;
+                    gap: 0 96px;
+                    margin-left: 110px;
+                    margin-top: 33.51px;
+                }
+            }
+        }
+    }
+}

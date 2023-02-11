@@ -1,0 +1,11 @@
+.map-section {
+    &-container {
+        &-block {
+            margin-top: 96px;
+            
+            iframe {
+                width: 1500px;
+            }
+        }
+    }
+}

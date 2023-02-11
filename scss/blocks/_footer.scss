@@ -1,0 +1,109 @@
+.footer {
+    &-section {
+        &-container {
+            &-block {
+                height: 402px;
+                background-color: #000;
+                margin-top: 96px;
+                width: 1500px;
+
+                &-flexbox {
+                    display: flex;
+                    align-items: flex-start;
+                    margin-left: 110px;
+                    padding-top: 97px;
+                    gap: 0 117px;
+
+                    &-linkBox {
+                        display: flex;
+                        gap: 0 95px;
+                        &-box {
+                            &__title {
+                                font-family: 'Roboto';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 160%;
+                                color: #FFFFFF;
+                            }
+                            
+                            nav {
+                                ul {
+                                    li {
+                                        margin-top: 24px;
+
+                                        a {
+                                            font-family: 'Roboto';
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            font-size: 14px;
+                                            line-height: 160%;
+                                            color: #FFFFFF;
+                                            opacity: 0.78;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
+                    &-formbox {
+                        position: relative;
+
+                        &__text {
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 40px;
+                            line-height: 140%;
+                            color: #FFFFFF;
+                            width: 440px;
+                            margin-left: 26px;
+                        }
+
+                        &-form {
+                            width: 544px;
+
+                            .footer-section-container-block-flexbox-form__input {
+                                display: inline-block;
+                                width: 416px;
+                                height: 64px;
+                                border: 1px solid rgba(235, 240, 249, 0.3);
+                                border-radius: 4px;
+                                background: none;
+                                font-family: 'Roboto';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 19px;
+                                color: rgba(235, 240, 249, 0.3);
+                                opacity: 0.8;   
+                                margin-top: 32px;
+                                margin-left: 26px;  
+                                padding-left: 24px;              
+                            }
+
+                            label {
+                                a {
+                                    padding: 23.4px 32px;
+                                    background: #FFFFFF;
+                                    backdrop-filter: blur(40px);
+                                    border-radius: 4px;
+                                    font-family: 'Roboto';
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 19px;
+                                    color: #1D2130;
+                                    position: absolute;
+                                    top: 143px;
+                                    left: 405px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

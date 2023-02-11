@@ -1,0 +1,57 @@
+.join-volunteer-section {
+    &-container {
+        &-block {
+            width: 1280px;
+            height: 384px;
+            margin: 96px 110px;
+            background-image: url(/img/Image\ \(3\).png);
+            background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/img/Image\ \(3\).png);  
+
+            &__title {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 120%;
+                text-align: center;
+                color: #FFFFFF;
+                width: 631px;
+                padding-top: 93px;
+                margin-left: 325px;
+            }
+
+            &-buttonRow {
+                margin-top: 32px;
+                display: flex;
+                gap: 0 32px;
+                justify-content: center;
+
+                &__btn {
+                    padding: 16px 32px;
+                    background: #70C174;
+                    backdrop-filter: blur(40px);
+                    border-radius: 4px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #FFFFFF;
+                }
+
+                &__btn2 {
+                    padding: 16px 32px;
+                    background: #FFFFFF;
+                    backdrop-filter: blur(40px);
+                    border-radius: 4px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #1d2130;
+                }
+            }
+        }
+    }
+}

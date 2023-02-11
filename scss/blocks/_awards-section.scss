@@ -1,0 +1,63 @@
+.awards-section {
+    &-container {
+        &-block {
+            width: 1100px;
+            margin-left: 200px;
+            margin-top: 96px;   
+
+            &__title {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 120%;
+                text-align: center;
+                color: #1D2130;
+            }
+
+            &-flexbox {
+                display: flex;
+                align-items: center;
+                gap: 0 208px;
+                margin-top: 48px;
+
+                &-box {
+                    width: 133px;
+                    height: 199px;
+                    text-align: center;
+
+                    &__title {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 160%;
+                        color: #1D2130;  
+                    }
+
+                    &__secondTitle {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 160%;
+                        color: #1D2130;
+                        text-align: center;
+                        width: 133px;
+                    }
+
+                    &__text {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 160%;
+                        color: #1D2130;
+                        text-transform: uppercase;
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+    }
+}

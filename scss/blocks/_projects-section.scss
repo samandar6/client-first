@@ -1,0 +1,62 @@
+.projects-section {
+    &-container {
+        &-block {
+            &-flexbox {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 0 24px;
+                margin-top: 65px;
+                width: 1500px;
+
+                &-box {
+                    width: 411px;
+                    height: 421px;
+                    background-image: url(/img/Imagee.png);
+                    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/img/Imagee.png);
+                    border-radius: 12px;
+
+                    &__title {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 28px;
+                        line-height: 150%;
+                        color: #FFFFFF;
+                        width: 315px;
+                        margin-left: 48px;
+                        margin-top: 80px;
+                    }
+
+                    &__text {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 160%;
+                        color: #FFFFFF;
+                        margin-top: 16px;
+                        margin-left: 48px;
+                        width: 315px;
+                    }
+
+                    &__btn {
+                        padding: 16px 32px;
+                        display: inline-block;
+                        background: #FFFFFF;
+                        backdrop-filter: blur(40px);
+                        border-radius: 4px;
+                        margin-top: 64px;
+                        margin-left: 48px;
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #1D2130;
+                    }
+                }
+            }
+        }
+    }
+}

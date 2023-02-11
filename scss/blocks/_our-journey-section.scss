@@ -1,0 +1,85 @@
+.our-journey-section {
+    &-container {
+        &-block {
+            width: 1280px;
+            height: 576px;
+            background: #0B0706;
+            border-radius: 12px;
+            margin-left: 110px;
+            margin-top: 96px;
+
+            &-flexbox {
+                display: flex;
+                width: 1184px;
+                height: 448px;
+                margin-left: 96px;
+                padding-top: 64px;
+                justify-content: space-between;
+                align-items: flex-start;
+
+                &-textbox {
+                    &__title {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 19px;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                        padding-top: 63px;
+                    }
+
+                    &__secondTitle {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 48px;
+                        line-height: 120%;
+                        color: #FFFFFF;
+                        padding-top: 16px;
+                    }
+
+                    &__text {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 160%;
+                        color: #FFFFFF;
+                        opacity: 0.8;
+                        padding-top: 16px;
+                        width: 488px;
+                    }
+
+                    &-statsBox {
+                        display: flex;
+                        gap: 0 32px;
+                        margin-top: 32px;
+
+                        &-box {
+                            &__title {
+                                font-family: 'Roboto';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 24px;
+                                line-height: 160%;
+                                color: #FFFFFF;
+                            }
+
+                            &__text {
+                                font-family: 'Roboto';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 12px;
+                                line-height: 160%;
+                                color: #FFFFFF;
+                                opacity: 0.8;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
